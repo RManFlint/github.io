@@ -53,7 +53,7 @@ $(document).on("click", ".rockStar", function() {
 
 			// Giving the image tag an src attribute of a proprty pulled off the
 			// result item
-			personImage.attr("src", results[i].images.fixed_height.url);
+			personImage.attr("src", results[i].images.fixed_height_still.url);
 			personImage.attr("data-still", results[i].images.fixed_height_still.url);
 			personImage.attr("data-animate", results[i].images.fixed_height.url);
 			//personImage.attr("data-state", "still");
